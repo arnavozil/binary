@@ -1,0 +1,21 @@
+@import "../../sass/variables";
+
+.main{
+    width: 100%;
+    margin-top: 2rem;
+
+    &_head{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 1rem;
+        justify-content: space-between;
+    }
+
+    &_grid{
+        display: grid;
+        grid-template-columns: repeat(4, 24.3%);
+        grid-column-gap: 1%;
+    }
+}
+

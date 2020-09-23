@@ -1,0 +1,33 @@
+@import "../../sass/variables";
+
+.main{
+    width: 85%;
+
+    &_description{
+        color: $grey;
+        margin: 0;
+        font-size: 1.25rem;
+    }
+
+    &_list{
+        list-style: none;
+        padding-left: 1rem;
+        margin-top: 1rem;
+
+        &_item{
+            font-size: 1.25rem;
+            font-weight: 500;
+            border-radius: .75rem;
+            padding: 1.05rem;
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            display: grid;
+            cursor: pointer;
+            grid-template-columns: 15% 85%;
+        }
+    }
+}
+
+.selected{
+    background-color: $primary-light;
+}

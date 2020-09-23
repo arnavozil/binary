@@ -1,0 +1,20 @@
+.main{
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-areas: 
+    "head head head head head"
+    "side main main main main";
+
+    &_aside{
+        grid-area: side;
+    }
+
+    &_header{
+        grid-area: head;
+    }
+
+    &_main{
+        grid-area: main;
+    }
+}

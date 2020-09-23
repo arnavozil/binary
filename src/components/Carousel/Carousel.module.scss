@@ -1,0 +1,14 @@
+@import "../../sass/variables";
+@import "../../sass/widgets/carousel";
+
+
+.different{
+    display: flex;
+    margin-top: .5rem;
+    width: 200%;
+    flex-direction: row;
+
+    & > div{
+        margin-right: 2rem;
+    }
+}

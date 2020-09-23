@@ -1,0 +1,15 @@
+@import "../../sass/variables";
+
+.main{
+    margin-right: -5rem;
+    margin-top: 2rem;
+
+    &_grid{
+        overflow-x: scroll;
+        margin-top: 1.5rem;
+        display: grid;
+        grid-auto-columns: 17.75vw;
+        grid-auto-flow: column;
+        grid-column-gap: 1%;
+    }
+}

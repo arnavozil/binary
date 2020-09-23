@@ -1,0 +1,46 @@
+.main{
+    height: 7.5vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    align-items: center;
+
+    &_logo{
+        width: 20%;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+    &_other{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        &_search{
+            width: 60%;
+        }
+
+        &_buttons{
+            width: 40%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+
+            &_tertiary{
+                width: 40%;
+                padding: 0 4rem;
+            }
+
+            &_primary{
+                width: 30%;
+                padding: 0 1rem;
+            
+                &:nth-child(3){
+                    padding-left: 2rem;
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}

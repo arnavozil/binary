@@ -1,0 +1,48 @@
+@import "../../sass/variables";
+
+.main{
+    display: flex;
+    flex-direction: row;
+
+    &_info{
+        flex: 1;
+
+        &_text{
+            color: $grey;
+            font-size: 1.35rem;
+            line-height: 1.85rem;
+        }
+    }
+
+    &_stats{
+        flex: 1;
+        padding-left: 4rem;
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: row;
+
+        &_left{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            & > span{
+                font-size: 1.15rem;
+                margin-bottom: .75rem;
+                color: $grey;
+            }
+        }
+
+        &_right{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        
+            & > span{
+                font-size: 1rem;
+                margin-left: 2rem;
+                margin-bottom: .75rem;
+            }
+        }
+    }
+}

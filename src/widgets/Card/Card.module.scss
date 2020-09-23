@@ -1,0 +1,36 @@
+@import "../../sass/variables";
+
+.card{
+    height: 25vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: .75rem;
+    position: relative;
+    cursor: pointer;
+    background-color: $primary-light;
+
+    &_info{
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        background-color: $primary-light;
+        border-radius: 0 0 .75rem .75rem;
+        flex-direction: column;
+        padding: 1.25rem 1.5rem;
+
+        &_sub{
+            margin: 0;
+        }
+    }
+
+    &_badge{
+        background-color: rgba($primary-light, .75);
+        border-radius: .75rem;
+        padding: .75rem;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+}
